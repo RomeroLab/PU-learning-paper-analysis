@@ -1,0 +1,42 @@
+
+Reference sequence notes:
+
+   PyKS reference sequence from: 
+
+      An automated data-driven pipeline for improving heterologous enzyme expression
+      SI: https://pubs.acs.org/doi/suppl/10.1021/acssynbio.8b00486/suppl_file/sb8b00486_si_001.pdf, 
+
+   Sequence tiles cover between gttggaaaatggtcaa and AGTGTGCCCATTCTC (this is the PyKS coding sequence)
+
+
+
+Analysis procedure
+
+1. Download from SRA and convert via sratoolkit
+
+   bash download_fastq_convert.sh
+
+   generates fastq files
+
+2. Map reads with bowtie2
+
+   bash alignment.sh
+
+   generates sam files
+
+3. Concatenate all sequencing tiles
+
+   bash cat_sam_tiles.sh
+
+4. Count mutations 
+
+   python sam2mutations.py PyKS_ref.sam
+   python sam2mutations.py PyKS_sel.sam
+
+5. Remove SRA, fastq, sam, and index* files
+
+6. Remove mutations that have less than 10 observations
+
+   python filter_less_than_10.py
+
+7. Convert mutations to sequences (gzipped)

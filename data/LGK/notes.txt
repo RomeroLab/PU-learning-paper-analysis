@@ -1,0 +1,45 @@
+
+Reference sequence notes: 
+
+   LGK reference sequence from: 
+
+      High-Resolution Sequence-Function Mapping of Full-Length Proteins
+      https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0118193#pone.0118193.s007
+
+   Starts at
+   TTAACTTTAAGAAGGAGAT
+
+   needed to modify the 3' end to add GFP fusion linker (I suppose).  Used sequences from SRA to determine this.
+
+
+
+Analysis procedure
+
+1. Download from SRA and convert via sratoolkit
+
+   bash download_fastq_convert.sh
+
+   generates fastq files
+
+2. Map reads with bowtie2
+
+   bash alignment.sh
+
+   generates sam files
+
+3. Concatenate all sequencing tiles
+
+   bash cat_sam_tiles.sh
+
+4. Count mutations 
+
+   python sam2mutations.py LGK_ref.sam
+   python sam2mutations.py LGK_sel.sam
+
+5. Remove SRA, fastq, sam, and index* files
+
+6. Remove mutations that have less than 10 observations
+
+   python filter_less_than_10.py 
+
+7. Convert mutations to sequences (gzipped)

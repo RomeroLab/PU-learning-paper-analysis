@@ -1,0 +1,205 @@
+Tue Mar 24 16:04:44 CDT 2020
+
+/home/romeroroot/code/bowtie2-2.3.4.1-linux-x86_64/bowtie2-align-s version 2.3.4.1
+64-bit
+Built on 14231912a8bd
+Sat Feb  3 13:04:04 UTC 2018
+Compiler: gcc version 4.8.2 20140120 (Red Hat 4.8.2-15) (GCC) 
+Options: -O3 -m64 -msse2 -funroll-loops -g3 -g -O2 -fvisibility=hidden -I/hbb_exe/include  -std=c++98 -DPOPCNT_CAPABILITY -DWITH_TBB -DNO_SPINLOCK -DWITH_QUEUELOCK=1
+Sizeof {int, long, long long, void*, size_t, off_t}: {4, 8, 8, 8, 8, 8}
+
+bowtie2 --very-sensitive-local --maxins 2000 --dovetail --no-discordant --no-unal --no-hd -p 1 -x index_file -1 TPK1_tile1_ref_R1.fastq -2 TPK1_tile1_ref_R2.fastq -S TPK1_tile1_ref.sam
+3581708 reads; of these:
+  3581708 (100.00%) were paired; of these:
+    38024 (1.06%) aligned concordantly 0 times
+    3541959 (98.89%) aligned concordantly exactly 1 time
+    1725 (0.05%) aligned concordantly >1 times
+    ----
+    38024 pairs aligned 0 times concordantly or discordantly; of these:
+      76048 mates make up the pairs; of these:
+        53211 (69.97%) aligned 0 times
+        22827 (30.02%) aligned exactly 1 time
+        10 (0.01%) aligned >1 times
+99.26% overall alignment rate
+
+bowtie2 --very-sensitive-local --maxins 2000 --dovetail --no-discordant --no-unal --no-hd -p 1 -x index_file -1 TPK1_tile2_ref_R1.fastq -2 TPK1_tile2_ref_R2.fastq -S TPK1_tile2_ref.sam
+3461539 reads; of these:
+  3461539 (100.00%) were paired; of these:
+    24711 (0.71%) aligned concordantly 0 times
+    3432444 (99.16%) aligned concordantly exactly 1 time
+    4384 (0.13%) aligned concordantly >1 times
+    ----
+    24711 pairs aligned 0 times concordantly or discordantly; of these:
+      49422 mates make up the pairs; of these:
+        29069 (58.82%) aligned 0 times
+        20326 (41.13%) aligned exactly 1 time
+        27 (0.05%) aligned >1 times
+99.58% overall alignment rate
+
+bowtie2 --very-sensitive-local --maxins 2000 --dovetail --no-discordant --no-unal --no-hd -p 1 -x index_file -1 TPK1_tile3_ref_R1.fastq -2 TPK1_tile3_ref_R2.fastq -S TPK1_tile3_ref.sam
+3627305 reads; of these:
+  3627305 (100.00%) were paired; of these:
+    121030 (3.34%) aligned concordantly 0 times
+    3502416 (96.56%) aligned concordantly exactly 1 time
+    3859 (0.11%) aligned concordantly >1 times
+    ----
+    121030 pairs aligned 0 times concordantly or discordantly; of these:
+      242060 mates make up the pairs; of these:
+        220435 (91.07%) aligned 0 times
+        21601 (8.92%) aligned exactly 1 time
+        24 (0.01%) aligned >1 times
+96.96% overall alignment rate
+
+bowtie2 --very-sensitive-local --maxins 2000 --dovetail --no-discordant --no-unal --no-hd -p 1 -x index_file -1 TPK1_tile4_ref_R1.fastq -2 TPK1_tile4_ref_R2.fastq -S TPK1_tile4_ref.sam
+3446829 reads; of these:
+  3446829 (100.00%) were paired; of these:
+    24727 (0.72%) aligned concordantly 0 times
+    3421586 (99.27%) aligned concordantly exactly 1 time
+    516 (0.01%) aligned concordantly >1 times
+    ----
+    24727 pairs aligned 0 times concordantly or discordantly; of these:
+      49454 mates make up the pairs; of these:
+        30590 (61.86%) aligned 0 times
+        18859 (38.13%) aligned exactly 1 time
+        5 (0.01%) aligned >1 times
+99.56% overall alignment rate
+
+bowtie2 --very-sensitive-local --maxins 2000 --dovetail --no-discordant --no-unal --no-hd -p 1 -x index_file -1 TPK1_tile5_ref_R1.fastq -2 TPK1_tile5_ref_R2.fastq -S TPK1_tile5_ref.sam
+3153243 reads; of these:
+  3153243 (100.00%) were paired; of these:
+    21340 (0.68%) aligned concordantly 0 times
+    3131042 (99.30%) aligned concordantly exactly 1 time
+    861 (0.03%) aligned concordantly >1 times
+    ----
+    21340 pairs aligned 0 times concordantly or discordantly; of these:
+      42680 mates make up the pairs; of these:
+        26359 (61.76%) aligned 0 times
+        16318 (38.23%) aligned exactly 1 time
+        3 (0.01%) aligned >1 times
+99.58% overall alignment rate
+
+bowtie2 --very-sensitive-local --maxins 2000 --dovetail --no-discordant --no-unal --no-hd -p 1 -x index_file -1 TPK1_tile6_ref_R1.fastq -2 TPK1_tile6_ref_R2.fastq -S TPK1_tile6_ref.sam
+3513831 reads; of these:
+  3513831 (100.00%) were paired; of these:
+    29407 (0.84%) aligned concordantly 0 times
+    3476028 (98.92%) aligned concordantly exactly 1 time
+    8396 (0.24%) aligned concordantly >1 times
+    ----
+    29407 pairs aligned 0 times concordantly or discordantly; of these:
+      58814 mates make up the pairs; of these:
+        39791 (67.66%) aligned 0 times
+        18975 (32.26%) aligned exactly 1 time
+        48 (0.08%) aligned >1 times
+99.43% overall alignment rate
+
+bowtie2 --very-sensitive-local --maxins 2000 --dovetail --no-discordant --no-unal --no-hd -p 1 -x index_file -1 TPK1_tile7_ref_R1.fastq -2 TPK1_tile7_ref_R2.fastq -S TPK1_tile7_ref.sam
+4459338 reads; of these:
+  4459338 (100.00%) were paired; of these:
+    1168632 (26.21%) aligned concordantly 0 times
+    3284036 (73.64%) aligned concordantly exactly 1 time
+    6670 (0.15%) aligned concordantly >1 times
+    ----
+    1168632 pairs aligned 0 times concordantly or discordantly; of these:
+      2337264 mates make up the pairs; of these:
+        2317988 (99.18%) aligned 0 times
+        19237 (0.82%) aligned exactly 1 time
+        39 (0.00%) aligned >1 times
+74.01% overall alignment rate
+
+bowtie2 --very-sensitive-local --maxins 2000 --dovetail --no-discordant --no-unal --no-hd -p 1 -x index_file -1 TPK1_tile1_sel_R1.fastq -2 TPK1_tile1_sel_R2.fastq -S TPK1_tile1_sel.sam
+1672074 reads; of these:
+  1672074 (100.00%) were paired; of these:
+    15875 (0.95%) aligned concordantly 0 times
+    1656176 (99.05%) aligned concordantly exactly 1 time
+    23 (0.00%) aligned concordantly >1 times
+    ----
+    15875 pairs aligned 0 times concordantly or discordantly; of these:
+      31750 mates make up the pairs; of these:
+        21252 (66.94%) aligned 0 times
+        10498 (33.06%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+99.36% overall alignment rate
+
+bowtie2 --very-sensitive-local --maxins 2000 --dovetail --no-discordant --no-unal --no-hd -p 1 -x index_file -1 TPK1_tile2_sel_R1.fastq -2 TPK1_tile2_sel_R2.fastq -S TPK1_tile2_sel.sam
+2670971 reads; of these:
+  2670971 (100.00%) were paired; of these:
+    17947 (0.67%) aligned concordantly 0 times
+    2652929 (99.32%) aligned concordantly exactly 1 time
+    95 (0.00%) aligned concordantly >1 times
+    ----
+    17947 pairs aligned 0 times concordantly or discordantly; of these:
+      35894 mates make up the pairs; of these:
+        20643 (57.51%) aligned 0 times
+        15251 (42.49%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+99.61% overall alignment rate
+
+bowtie2 --very-sensitive-local --maxins 2000 --dovetail --no-discordant --no-unal --no-hd -p 1 -x index_file -1 TPK1_tile3_sel_R1.fastq -2 TPK1_tile3_sel_R2.fastq -S TPK1_tile3_sel.sam
+1658464 reads; of these:
+  1658464 (100.00%) were paired; of these:
+    81223 (4.90%) aligned concordantly 0 times
+    1575368 (94.99%) aligned concordantly exactly 1 time
+    1873 (0.11%) aligned concordantly >1 times
+    ----
+    81223 pairs aligned 0 times concordantly or discordantly; of these:
+      162446 mates make up the pairs; of these:
+        153450 (94.46%) aligned 0 times
+        8989 (5.53%) aligned exactly 1 time
+        7 (0.00%) aligned >1 times
+95.37% overall alignment rate
+
+bowtie2 --very-sensitive-local --maxins 2000 --dovetail --no-discordant --no-unal --no-hd -p 1 -x index_file -1 TPK1_tile4_sel_R1.fastq -2 TPK1_tile4_sel_R2.fastq -S TPK1_tile4_sel.sam
+2472100 reads; of these:
+  2472100 (100.00%) were paired; of these:
+    17372 (0.70%) aligned concordantly 0 times
+    2453380 (99.24%) aligned concordantly exactly 1 time
+    1348 (0.05%) aligned concordantly >1 times
+    ----
+    17372 pairs aligned 0 times concordantly or discordantly; of these:
+      34744 mates make up the pairs; of these:
+        21082 (60.68%) aligned 0 times
+        13651 (39.29%) aligned exactly 1 time
+        11 (0.03%) aligned >1 times
+99.57% overall alignment rate
+
+bowtie2 --very-sensitive-local --maxins 2000 --dovetail --no-discordant --no-unal --no-hd -p 1 -x index_file -1 TPK1_tile5_sel_R1.fastq -2 TPK1_tile5_sel_R2.fastq -S TPK1_tile5_sel.sam
+1987761 reads; of these:
+  1987761 (100.00%) were paired; of these:
+    13494 (0.68%) aligned concordantly 0 times
+    1973765 (99.30%) aligned concordantly exactly 1 time
+    502 (0.03%) aligned concordantly >1 times
+    ----
+    13494 pairs aligned 0 times concordantly or discordantly; of these:
+      26988 mates make up the pairs; of these:
+        16405 (60.79%) aligned 0 times
+        10580 (39.20%) aligned exactly 1 time
+        3 (0.01%) aligned >1 times
+99.59% overall alignment rate
+
+bowtie2 --very-sensitive-local --maxins 2000 --dovetail --no-discordant --no-unal --no-hd -p 1 -x index_file -1 TPK1_tile6_sel_R1.fastq -2 TPK1_tile6_sel_R2.fastq -S TPK1_tile6_sel.sam
+2350626 reads; of these:
+  2350626 (100.00%) were paired; of these:
+    19211 (0.82%) aligned concordantly 0 times
+    2330835 (99.16%) aligned concordantly exactly 1 time
+    580 (0.02%) aligned concordantly >1 times
+    ----
+    19211 pairs aligned 0 times concordantly or discordantly; of these:
+      38422 mates make up the pairs; of these:
+        25420 (66.16%) aligned 0 times
+        12997 (33.83%) aligned exactly 1 time
+        5 (0.01%) aligned >1 times
+99.46% overall alignment rate
+
+bowtie2 --very-sensitive-local --maxins 2000 --dovetail --no-discordant --no-unal --no-hd -p 1 -x index_file -1 TPK1_tile7_sel_R1.fastq -2 TPK1_tile7_sel_R2.fastq -S TPK1_tile7_sel.sam
+1487103 reads; of these:
+  1487103 (100.00%) were paired; of these:
+    11564 (0.78%) aligned concordantly 0 times
+    1475463 (99.22%) aligned concordantly exactly 1 time
+    76 (0.01%) aligned concordantly >1 times
+    ----
+    11564 pairs aligned 0 times concordantly or discordantly; of these:
+      23128 mates make up the pairs; of these:
+        16155 (69.85%) aligned 0 times
+        6973 (30.15%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+99.46% overall alignment rate

@@ -1,0 +1,163 @@
+Thu Apr  9 14:59:32 CDT 2020
+
+/home/romeroroot/code/bowtie2-2.3.4.1-linux-x86_64/bowtie2-align-s version 2.3.4.1
+64-bit
+Built on 14231912a8bd
+Sat Feb  3 13:04:04 UTC 2018
+Compiler: gcc version 4.8.2 20140120 (Red Hat 4.8.2-15) (GCC) 
+Options: -O3 -m64 -msse2 -funroll-loops -g3 -g -O2 -fvisibility=hidden -I/hbb_exe/include  -std=c++98 -DPOPCNT_CAPABILITY -DWITH_TBB -DNO_SPINLOCK -DWITH_QUEUELOCK=1
+Sizeof {int, long, long long, void*, size_t, off_t}: {4, 8, 8, 8, 8, 8}
+
+bowtie2 --very-sensitive-local --maxins 2000 --dovetail --no-discordant --no-unal --no-hd -p 1 -x index_file -1 Bgl3_Lib1_ref_R1.fastq -2 Bgl3_Lib1_ref_R2.fastq -S Bgl3_Lib1_ref.sam
+4752145 reads; of these:
+  4752145 (100.00%) were paired; of these:
+    1227728 (25.84%) aligned concordantly 0 times
+    3516292 (73.99%) aligned concordantly exactly 1 time
+    8125 (0.17%) aligned concordantly >1 times
+    ----
+    1227728 pairs aligned 0 times concordantly or discordantly; of these:
+      2455456 mates make up the pairs; of these:
+        1998361 (81.38%) aligned 0 times
+        454478 (18.51%) aligned exactly 1 time
+        2617 (0.11%) aligned >1 times
+78.97% overall alignment rate
+
+bowtie2 --very-sensitive-local --maxins 2000 --dovetail --no-discordant --no-unal --no-hd -p 1 -x index_file -1 Bgl3_Lib1_sel1_R1.fastq -2 Bgl3_Lib1_sel1_R2.fastq -S Bgl3_Lib1_sel1.sam
+3752118 reads; of these:
+  3752118 (100.00%) were paired; of these:
+    712489 (18.99%) aligned concordantly 0 times
+    3030824 (80.78%) aligned concordantly exactly 1 time
+    8805 (0.23%) aligned concordantly >1 times
+    ----
+    712489 pairs aligned 0 times concordantly or discordantly; of these:
+      1424978 mates make up the pairs; of these:
+        1241946 (87.16%) aligned 0 times
+        181851 (12.76%) aligned exactly 1 time
+        1181 (0.08%) aligned >1 times
+83.45% overall alignment rate
+
+bowtie2 --very-sensitive-local --maxins 2000 --dovetail --no-discordant --no-unal --no-hd -p 1 -x index_file -1 Bgl3_Lib1_sel2_R1.fastq -2 Bgl3_Lib1_sel2_R2.fastq -S Bgl3_Lib1_sel2.sam
+6642205 reads; of these:
+  6642205 (100.00%) were paired; of these:
+    1454819 (21.90%) aligned concordantly 0 times
+    5171926 (77.86%) aligned concordantly exactly 1 time
+    15460 (0.23%) aligned concordantly >1 times
+    ----
+    1454819 pairs aligned 0 times concordantly or discordantly; of these:
+      2909638 mates make up the pairs; of these:
+        2657040 (91.32%) aligned 0 times
+        250644 (8.61%) aligned exactly 1 time
+        1954 (0.07%) aligned >1 times
+80.00% overall alignment rate
+
+bowtie2 --very-sensitive-local --maxins 2000 --dovetail --no-discordant --no-unal --no-hd -p 1 -x index_file -1 Bgl3_Lib1_sel3_R1.fastq -2 Bgl3_Lib1_sel3_R2.fastq -S Bgl3_Lib1_sel3.sam
+3521257 reads; of these:
+  3521257 (100.00%) were paired; of these:
+    650913 (18.49%) aligned concordantly 0 times
+    2858880 (81.19%) aligned concordantly exactly 1 time
+    11464 (0.33%) aligned concordantly >1 times
+    ----
+    650913 pairs aligned 0 times concordantly or discordantly; of these:
+      1301826 mates make up the pairs; of these:
+        1192978 (91.64%) aligned 0 times
+        107560 (8.26%) aligned exactly 1 time
+        1288 (0.10%) aligned >1 times
+83.06% overall alignment rate
+
+bowtie2 --very-sensitive-local --maxins 2000 --dovetail --no-discordant --no-unal --no-hd -p 1 -x index_file -1 Bgl3_Lib2_ref_R1.fastq -2 Bgl3_Lib2_ref_R2.fastq -S Bgl3_Lib2_ref.sam
+1767300 reads; of these:
+  1767300 (100.00%) were paired; of these:
+    215893 (12.22%) aligned concordantly 0 times
+    1547576 (87.57%) aligned concordantly exactly 1 time
+    3831 (0.22%) aligned concordantly >1 times
+    ----
+    215893 pairs aligned 0 times concordantly or discordantly; of these:
+      431786 mates make up the pairs; of these:
+        383383 (88.79%) aligned 0 times
+        48018 (11.12%) aligned exactly 1 time
+        385 (0.09%) aligned >1 times
+89.15% overall alignment rate
+
+bowtie2 --very-sensitive-local --maxins 2000 --dovetail --no-discordant --no-unal --no-hd -p 1 -x index_file -1 Bgl3_Lib2_sel1_R1.fastq -2 Bgl3_Lib2_sel1_R2.fastq -S Bgl3_Lib2_sel1.sam
+3229885 reads; of these:
+  3229885 (100.00%) were paired; of these:
+    481759 (14.92%) aligned concordantly 0 times
+    2741349 (84.87%) aligned concordantly exactly 1 time
+    6777 (0.21%) aligned concordantly >1 times
+    ----
+    481759 pairs aligned 0 times concordantly or discordantly; of these:
+      963518 mates make up the pairs; of these:
+        871011 (90.40%) aligned 0 times
+        91733 (9.52%) aligned exactly 1 time
+        774 (0.08%) aligned >1 times
+86.52% overall alignment rate
+
+bowtie2 --very-sensitive-local --maxins 2000 --dovetail --no-discordant --no-unal --no-hd -p 1 -x index_file -1 Bgl3_Lib2_sel2_R1.fastq -2 Bgl3_Lib2_sel2_R2.fastq -S Bgl3_Lib2_sel2.sam
+3251309 reads; of these:
+  3251309 (100.00%) were paired; of these:
+    679434 (20.90%) aligned concordantly 0 times
+    2564998 (78.89%) aligned concordantly exactly 1 time
+    6877 (0.21%) aligned concordantly >1 times
+    ----
+    679434 pairs aligned 0 times concordantly or discordantly; of these:
+      1358868 mates make up the pairs; of these:
+        1299756 (95.65%) aligned 0 times
+        58689 (4.32%) aligned exactly 1 time
+        423 (0.03%) aligned >1 times
+80.01% overall alignment rate
+
+bowtie2 --very-sensitive-local --maxins 2000 --dovetail --no-discordant --no-unal --no-hd -p 1 -x index_file -1 Bgl3_Lib3_ref_R1.fastq -2 Bgl3_Lib3_ref_R2.fastq -S Bgl3_Lib3_ref.sam
+2907384 reads; of these:
+  2907384 (100.00%) were paired; of these:
+    533905 (18.36%) aligned concordantly 0 times
+    2368037 (81.45%) aligned concordantly exactly 1 time
+    5442 (0.19%) aligned concordantly >1 times
+    ----
+    533905 pairs aligned 0 times concordantly or discordantly; of these:
+      1067810 mates make up the pairs; of these:
+        949093 (88.88%) aligned 0 times
+        117754 (11.03%) aligned exactly 1 time
+        963 (0.09%) aligned >1 times
+83.68% overall alignment rate
+
+bowtie2 --very-sensitive-local --maxins 2000 --dovetail --no-discordant --no-unal --no-hd -p 1 -x index_file -1 Bgl3_Lib3_sel1_R1.fastq -2 Bgl3_Lib3_sel1_R2.fastq -S Bgl3_Lib3_sel1.sam
+2896541 reads; of these:
+  2896541 (100.00%) were paired; of these:
+    434393 (15.00%) aligned concordantly 0 times
+    2455166 (84.76%) aligned concordantly exactly 1 time
+    6982 (0.24%) aligned concordantly >1 times
+    ----
+    434393 pairs aligned 0 times concordantly or discordantly; of these:
+      868786 mates make up the pairs; of these:
+        767969 (88.40%) aligned 0 times
+        99998 (11.51%) aligned exactly 1 time
+        819 (0.09%) aligned >1 times
+86.74% overall alignment rate
+
+bowtie2 --very-sensitive-local --maxins 2000 --dovetail --no-discordant --no-unal --no-hd -p 1 -x index_file -1 Bgl3_Lib3_sel2_R1.fastq -2 Bgl3_Lib3_sel2_R2.fastq -S Bgl3_Lib3_sel2.sam
+2181523 reads; of these:
+  2181523 (100.00%) were paired; of these:
+    325616 (14.93%) aligned concordantly 0 times
+    1852738 (84.93%) aligned concordantly exactly 1 time
+    3169 (0.15%) aligned concordantly >1 times
+    ----
+    325616 pairs aligned 0 times concordantly or discordantly; of these:
+      651232 mates make up the pairs; of these:
+        571646 (87.78%) aligned 0 times
+        78955 (12.12%) aligned exactly 1 time
+        631 (0.10%) aligned >1 times
+86.90% overall alignment rate
+
+bowtie2 --very-sensitive-local --maxins 2000 --dovetail --no-discordant --no-unal --no-hd -p 1 -x index_file -1 Bgl3_Lib3_sel3_R1.fastq -2 Bgl3_Lib3_sel3_R2.fastq -S Bgl3_Lib3_sel3.sam
+3485277 reads; of these:
+  3485277 (100.00%) were paired; of these:
+    509337 (14.61%) aligned concordantly 0 times
+    2966809 (85.12%) aligned concordantly exactly 1 time
+    9131 (0.26%) aligned concordantly >1 times
+    ----
+    509337 pairs aligned 0 times concordantly or discordantly; of these:
+      1018674 mates make up the pairs; of these:
+        964964 (94.73%) aligned 0 times
+        53313 (5.23%) aligned exactly 1 time
+        397 (0.04%) aligned >1 times
+86.16% overall alignment rate

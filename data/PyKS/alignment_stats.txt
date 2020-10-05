@@ -1,0 +1,121 @@
+Thu Mar  5 09:21:31 CST 2020
+
+/home/romeroroot/code/bowtie2-2.3.4.1-linux-x86_64/bowtie2-align-s version 2.3.4.1
+64-bit
+Built on 14231912a8bd
+Sat Feb  3 13:04:04 UTC 2018
+Compiler: gcc version 4.8.2 20140120 (Red Hat 4.8.2-15) (GCC) 
+Options: -O3 -m64 -msse2 -funroll-loops -g3 -g -O2 -fvisibility=hidden -I/hbb_exe/include  -std=c++98 -DPOPCNT_CAPABILITY -DWITH_TBB -DNO_SPINLOCK -DWITH_QUEUELOCK=1
+Sizeof {int, long, long long, void*, size_t, off_t}: {4, 8, 8, 8, 8, 8}
+
+bowtie2 --very-sensitive-local --maxins 2000 --dovetail --no-discordant --no-unal --no-hd -p 1 -x index_file -1 PyKS_tile1_ref_R1.fastq -2 PyKS_tile1_ref_R2.fastq -S PyKS_tile1_ref.sam
+448501 reads; of these:
+  448501 (100.00%) were paired; of these:
+    22955 (5.12%) aligned concordantly 0 times
+    425528 (94.88%) aligned concordantly exactly 1 time
+    18 (0.00%) aligned concordantly >1 times
+    ----
+    22955 pairs aligned 0 times concordantly or discordantly; of these:
+      45910 mates make up the pairs; of these:
+        44667 (97.29%) aligned 0 times
+        1243 (2.71%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+95.02% overall alignment rate
+
+bowtie2 --very-sensitive-local --maxins 2000 --dovetail --no-discordant --no-unal --no-hd -p 1 -x index_file -1 PyKS_tile1_sel_R1.fastq -2 PyKS_tile1_sel_R2.fastq -S PyKS_tile1_sel.sam
+258491 reads; of these:
+  258491 (100.00%) were paired; of these:
+    14024 (5.43%) aligned concordantly 0 times
+    244460 (94.57%) aligned concordantly exactly 1 time
+    7 (0.00%) aligned concordantly >1 times
+    ----
+    14024 pairs aligned 0 times concordantly or discordantly; of these:
+      28048 mates make up the pairs; of these:
+        27366 (97.57%) aligned 0 times
+        682 (2.43%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+94.71% overall alignment rate
+
+bowtie2 --very-sensitive-local --maxins 2000 --dovetail --no-discordant --no-unal --no-hd -p 1 -x index_file -1 PyKS_tile2_ref_R1.fastq -2 PyKS_tile2_ref_R2.fastq -S PyKS_tile2_ref.sam
+161065 reads; of these:
+  161065 (100.00%) were paired; of these:
+    8485 (5.27%) aligned concordantly 0 times
+    152575 (94.73%) aligned concordantly exactly 1 time
+    5 (0.00%) aligned concordantly >1 times
+    ----
+    8485 pairs aligned 0 times concordantly or discordantly; of these:
+      16970 mates make up the pairs; of these:
+        16891 (99.53%) aligned 0 times
+        79 (0.47%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+94.76% overall alignment rate
+
+bowtie2 --very-sensitive-local --maxins 2000 --dovetail --no-discordant --no-unal --no-hd -p 1 -x index_file -1 PyKS_tile2_sel_R1.fastq -2 PyKS_tile2_sel_R2.fastq -S PyKS_tile2_sel.sam
+1023291 reads; of these:
+  1023291 (100.00%) were paired; of these:
+    47228 (4.62%) aligned concordantly 0 times
+    976026 (95.38%) aligned concordantly exactly 1 time
+    37 (0.00%) aligned concordantly >1 times
+    ----
+    47228 pairs aligned 0 times concordantly or discordantly; of these:
+      94456 mates make up the pairs; of these:
+        93904 (99.42%) aligned 0 times
+        552 (0.58%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+95.41% overall alignment rate
+
+bowtie2 --very-sensitive-local --maxins 2000 --dovetail --no-discordant --no-unal --no-hd -p 1 -x index_file -1 PyKS_tile4_ref_R1.fastq -2 PyKS_tile4_ref_R2.fastq -S PyKS_tile4_ref.sam
+895164 reads; of these:
+  895164 (100.00%) were paired; of these:
+    45744 (5.11%) aligned concordantly 0 times
+    849388 (94.89%) aligned concordantly exactly 1 time
+    32 (0.00%) aligned concordantly >1 times
+    ----
+    45744 pairs aligned 0 times concordantly or discordantly; of these:
+      91488 mates make up the pairs; of these:
+        90135 (98.52%) aligned 0 times
+        1353 (1.48%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+94.97% overall alignment rate
+
+bowtie2 --very-sensitive-local --maxins 2000 --dovetail --no-discordant --no-unal --no-hd -p 1 -x index_file -1 PyKS_tile4_sel_R1.fastq -2 PyKS_tile4_sel_R2.fastq -S PyKS_tile4_sel.sam
+358364 reads; of these:
+  358364 (100.00%) were paired; of these:
+    23419 (6.53%) aligned concordantly 0 times
+    334930 (93.46%) aligned concordantly exactly 1 time
+    15 (0.00%) aligned concordantly >1 times
+    ----
+    23419 pairs aligned 0 times concordantly or discordantly; of these:
+      46838 mates make up the pairs; of these:
+        46199 (98.64%) aligned 0 times
+        639 (1.36%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+93.55% overall alignment rate
+
+bowtie2 --very-sensitive-local --maxins 2000 --dovetail --no-discordant --no-unal --no-hd -p 1 -x index_file -1 PyKS_tile5_ref_R1.fastq -2 PyKS_tile5_ref_R2.fastq -S PyKS_tile5_ref.sam
+1775455 reads; of these:
+  1775455 (100.00%) were paired; of these:
+    96573 (5.44%) aligned concordantly 0 times
+    1678816 (94.56%) aligned concordantly exactly 1 time
+    66 (0.00%) aligned concordantly >1 times
+    ----
+    96573 pairs aligned 0 times concordantly or discordantly; of these:
+      193146 mates make up the pairs; of these:
+        190089 (98.42%) aligned 0 times
+        3057 (1.58%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+94.65% overall alignment rate
+
+bowtie2 --very-sensitive-local --maxins 2000 --dovetail --no-discordant --no-unal --no-hd -p 1 -x index_file -1 PyKS_tile5_sel_R1.fastq -2 PyKS_tile5_sel_R2.fastq -S PyKS_tile5_sel.sam
+538549 reads; of these:
+  538549 (100.00%) were paired; of these:
+    32625 (6.06%) aligned concordantly 0 times
+    505912 (93.94%) aligned concordantly exactly 1 time
+    12 (0.00%) aligned concordantly >1 times
+    ----
+    32625 pairs aligned 0 times concordantly or discordantly; of these:
+      65250 mates make up the pairs; of these:
+        64298 (98.54%) aligned 0 times
+        952 (1.46%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+94.03% overall alignment rate

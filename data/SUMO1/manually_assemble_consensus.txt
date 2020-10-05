@@ -1,0 +1,67 @@
+
+
+OUTPUT from get_ref_conscensus.py
+
+
+:CAACTTTGTACAAAAAAGTTGGCATGTCTGACCAGGAGGCAAAACCTTCAACTGAGGACTTGGGGGATAAGAAGGAAGGTGAATATATTAAACTCAAAGTCATTGGACAGGATAGCAGTGAGATTCACTTCAAAGTGAAAATGACAACACATCTCAAGAAACTCAAAGAATCATACTGTCAAAGACAGGGTGTTCCAATG
+:CAAGTTTGTACAAAAAAGTTGGCATGTCTGACCAGGAGGCAAAACCTTCAACTGAGGACTTGGGGGAAAAGAAGGAGGGGAAATAT-TTAAAACCAAAGTCATTGGAAAGGATAGCAGTGAGATTCACTTCAAAGTGAAAATGACAACACA-------------------------------------------------
+:-AAGTTTGTACAAAAAAGTTGGCATGTCTGACCAGGAGGCAAAACCTTCAACTGAGGACTTGGGGGATAAGAAGGAAGGTGAATATATTAAACTCAAAGTCATTGGACAGGATAGCAGTGAGATTCACTTCAAAGTGAAAATGACAACACA-------------------------------------------------
+:-------------------------------------------------------------------------------------------------------TGGACAGGATAGCAGTGAGATTCACTTCAAAGTGAAAATGACAACACATCTCAAGAAACTCAAAGAATCATACTGTCAAAGACAGGGTGTTCCAATG
+:-------------------------------------------------------------------------------------------------------TGGACAGGATAGCAGTGAGATTCACTTCAAAGTGAAAATGACAACACATCTCAAAAAACCCAAAAAA-CAAAATTTCAAAGACAGGGTGTTCCAATG
+:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+:***#***************************************************************#********#**##***********##*************#*************************************************#****#****#*****#*#*#**********************
+:                                                                                                                                                                                                        
+
+
+:AATTCACTCAGGTTTCTCTTTGAGGGTCAGAGAATTGCTGATAATAATACTCCAAAAGAACTGGGAATGGAGGAAGAAGATGTGATTGAAGTTTATCAGGAACAAACGGGGGGTCATTCAACAGTTTACCCAACTTTCTTGTACAAAGTTGGC--ATTATAAGAAA
+:----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+:----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+:AATTCACTC-GGTTTCTTTTTGGGGGTCAGAGAATTGCTGATAATCATACTCCA----------------------------------------------------------------------------------------------------------------
+:AATTCACTCAGGTTTCTCTTTGAGGGTCAGAGAATTGCTGATAATCATACTCCA----------------------------------------------------------------------------------------------------------------
+:------CTCAGGTTTCTCTTTGAGGGTCAGAGAATTGCTGATAATCATACTCCAAAAGAACTGGGAATGGAGGAAGAAGATGTGATTGAAGTTTATCAGGAACAAACGGGGGGTTA---------GTACCCAACTTTCTTGTACAAAGTGGTTTGATGGCCGCTA-
+:-------TCAGGTTTCTCTTTGAGGGTCAGAGAATTGCTGATAATCATACTCCAAAAGAACTGGGAATGGAGGAAGAAGATGTGATTGAAGTTTATCAGGAACAAACGGGGGGTTA---------GTACCCAACTTTCTTGTACAAAGTGGTTTGATGGCCGCTAA
+:*****************#****#**********************#********************************************************************#**********#***********************#*##****#######**
+
+
+
+
+
+I MANUALLY WENT THROUGH AND EDITED THE VERY TOP SEQUENCE TO MATCH THE READS
+
+Edited bases have a $ above them, then end also had an insert
+
+    $                                                            
+:CAAGTTTGTACAAAAAAGTTGGCATGTCTGACCAGGAGGCAAAACCTTCAACTGAGGACTTGGGGGATAAGAAGGAAGGTGAATATATTAAACTCAAAGTCATTGGACAGGATAGCAGTGAGATTCACTTCAAAGTGAAAATGACAACACATCTCAAGAAACTCAAAGAATCATACTGTCAAAGACAGGGTGTTCCAATG
+:CAAGTTTGTACAAAAAAGTTGGCATGTCTGACCAGGAGGCAAAACCTTCAACTGAGGACTTGGGGGAAAAGAAGGAGGGGAAATAT-TTAAAACCAAAGTCATTGGAAAGGATAGCAGTGAGATTCACTTCAAAGTGAAAATGACAACACA-------------------------------------------------
+:-AAGTTTGTACAAAAAAGTTGGCATGTCTGACCAGGAGGCAAAACCTTCAACTGAGGACTTGGGGGATAAGAAGGAAGGTGAATATATTAAACTCAAAGTCATTGGACAGGATAGCAGTGAGATTCACTTCAAAGTGAAAATGACAACACA-------------------------------------------------
+:-------------------------------------------------------------------------------------------------------TGGACAGGATAGCAGTGAGATTCACTTCAAAGTGAAAATGACAACACATCTCAAGAAACTCAAAGAATCATACTGTCAAAGACAGGGTGTTCCAATG
+:-------------------------------------------------------------------------------------------------------TGGACAGGATAGCAGTGAGATTCACTTCAAAGTGAAAATGACAACACATCTCAAAAAACCCAAAAAA-CAAAATTTCAAAGACAGGGTGTTCCAATG
+:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+:***#***************************************************************#********#**##***********##*************#*************************************************#****#****#*****#*#*#**********************
+:                                                                                                                                                                                                        
+
+                                              $                                                                    $ $
+:AATTCACTCAGGTTTCTCTTTGAGGGTCAGAGAATTGCTGATAATCATACTCCAAAAGAACTGGGAATGGAGGAAGAAGATGTGATTGAAGTTTATCAGGAACAAACGGGGGGTTAGTACCCAACTTTCTTGTACAAAGTGGTTTGATGGCCGCTAA
+:-------------------------------------------------------------------------------------------------------------------------------------------------------------
+:-------------------------------------------------------------------------------------------------------------------------------------------------------------
+:AATTCACTC-GGTTTCTTTTTGGGGGTCAGAGAATTGCTGATAATCATACTCCA-------------------------------------------------------------------------------------------------------
+:AATTCACTCAGGTTTCTCTTTGAGGGTCAGAGAATTGCTGATAATCATACTCCA-------------------------------------------------------------------------------------------------------
+:------CTCAGGTTTCTCTTTGAGGGTCAGAGAATTGCTGATAATCATACTCCAAAAGAACTGGGAATGGAGGAAGAAGATGTGATTGAAGTTTATCAGGAACAAACGGGGGGTTAGTACCCAACTTTCTTGTACAAAGTGGTTTGATGGCCGCTA-
+:-------TCAGGTTTCTCTTTGAGGGTCAGAGAATTGCTGATAATCATACTCCAAAAGAACTGGGAATGGAGGAAGAAGATGTGATTGAAGTTTATCAGGAACAAACGGGGGGTTAGTACCCAACTTTCTTGTACAAAGTGGTTTGATGGCCGCTAA
+:*****************#****#**********************#********************************************************************#*#***********************#*##****#######**
+
+
+
+
+
+FINAL SEQ
+
+
+>SUMO1
+CAAGTTTGTACAAAAAAGTTGGCATGTCTGACCAGGAGGCAAAACCTTCAACTGAGGACTTGGGGGATAAGAAGGAAGGTGAATATATTAAACTCAAAGTCATTGGACAGGATAGCAGTGAGATTCACTTCAAAGTGAAAATGACAACACATCTCAAGAAACTCAAAGAATCATACTGTCAAAGACAGGGTGTTCCAATGAATTCACTCAGGTTTCTCTTTGAGGGTCAGAGAATTGCTGATAATCATACTCCAAAAGAACTGGGAATGGAGGAAGAAGATGTGATTGAAGTTTATCAGGAACAAACGGGGGGTTAGTACCCAACTTTCTTGTACAAAGTGGTTTGATGGCCGCTAA
+
+
+
+

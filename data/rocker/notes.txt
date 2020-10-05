@@ -1,0 +1,18 @@
+
+1. Files 
+   Maen 8 was our best data set
+
+   I copied over from Emily's dir: 
+
+   cp /mnt/Groups/RomeroGrp/General/Former_members/Emily/Rocker/18.Feb.2019_MAEN8_active_S1_aaseqs.pkl ./
+   cp /mnt/Groups/RomeroGrp/General/Former_members/Emily/Rocker/18.Feb.2019_MAEN8_unsorted_S4_aaseqs.pkl ./
+
+2. Generate mutation files and filter 
+
+   python gen_muts_and_filter.py
+
+3. Convert mutations to sequences (gzipped)
+
+
+
+

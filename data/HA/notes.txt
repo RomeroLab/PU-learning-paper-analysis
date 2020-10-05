@@ -1,0 +1,26 @@
+
+
+1. Download from SRA and convert via sratoolkit
+
+   bash download_fastq_convert.sh
+
+   generates fastq files
+
+2. Map reads with bowtie2
+
+   bash alignment.sh
+
+   generates sam files
+
+3. Count mutations 
+
+   python sam2mutations.py HA_ref.sam
+   python sam2mutations.py HA_sel.sam
+
+4. Remove SRA, fastq, sam, and index* files
+
+6. Remove mutations that have less than 10 observations
+
+   python filter_less_than_10.py
+
+7. Convert mutations to sequences (gzipped)

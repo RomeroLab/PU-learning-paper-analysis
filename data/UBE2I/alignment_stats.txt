@@ -1,0 +1,149 @@
+Fri Mar 20 14:11:38 CDT 2020
+
+/home/romeroroot/code/bowtie2-2.3.4.1-linux-x86_64/bowtie2-align-s version 2.3.4.1
+64-bit
+Built on 14231912a8bd
+Sat Feb  3 13:04:04 UTC 2018
+Compiler: gcc version 4.8.2 20140120 (Red Hat 4.8.2-15) (GCC) 
+Options: -O3 -m64 -msse2 -funroll-loops -g3 -g -O2 -fvisibility=hidden -I/hbb_exe/include  -std=c++98 -DPOPCNT_CAPABILITY -DWITH_TBB -DNO_SPINLOCK -DWITH_QUEUELOCK=1
+Sizeof {int, long, long long, void*, size_t, off_t}: {4, 8, 8, 8, 8, 8}
+
+bowtie2 --very-sensitive-local --maxins 2000 --dovetail --no-discordant --no-unal --no-hd -p 1 -x index_file -1 UBE2I_tile1_ref_R1.fastq -2 UBE2I_tile1_ref_R2.fastq -S UBE2I_tile1_ref.sam
+1893609 reads; of these:
+  1893609 (100.00%) were paired; of these:
+    24977 (1.32%) aligned concordantly 0 times
+    1866917 (98.59%) aligned concordantly exactly 1 time
+    1715 (0.09%) aligned concordantly >1 times
+    ----
+    24977 pairs aligned 0 times concordantly or discordantly; of these:
+      49954 mates make up the pairs; of these:
+        29116 (58.29%) aligned 0 times
+        20825 (41.69%) aligned exactly 1 time
+        13 (0.03%) aligned >1 times
+99.23% overall alignment rate
+
+bowtie2 --very-sensitive-local --maxins 2000 --dovetail --no-discordant --no-unal --no-hd -p 1 -x index_file -1 UBE2I_tile2_ref_R1.fastq -2 UBE2I_tile2_ref_R2.fastq -S UBE2I_tile2_ref.sam
+2950533 reads; of these:
+  2950533 (100.00%) were paired; of these:
+    30404 (1.03%) aligned concordantly 0 times
+    2920043 (98.97%) aligned concordantly exactly 1 time
+    86 (0.00%) aligned concordantly >1 times
+    ----
+    30404 pairs aligned 0 times concordantly or discordantly; of these:
+      60808 mates make up the pairs; of these:
+        36462 (59.96%) aligned 0 times
+        24346 (40.04%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+99.38% overall alignment rate
+
+bowtie2 --very-sensitive-local --maxins 2000 --dovetail --no-discordant --no-unal --no-hd -p 1 -x index_file -1 UBE2I_tile3_ref_R1.fastq -2 UBE2I_tile3_ref_R2.fastq -S UBE2I_tile3_ref.sam
+2610921 reads; of these:
+  2610921 (100.00%) were paired; of these:
+    26300 (1.01%) aligned concordantly 0 times
+    2584322 (98.98%) aligned concordantly exactly 1 time
+    299 (0.01%) aligned concordantly >1 times
+    ----
+    26300 pairs aligned 0 times concordantly or discordantly; of these:
+      52600 mates make up the pairs; of these:
+        29534 (56.15%) aligned 0 times
+        23062 (43.84%) aligned exactly 1 time
+        4 (0.01%) aligned >1 times
+99.43% overall alignment rate
+
+bowtie2 --very-sensitive-local --maxins 2000 --dovetail --no-discordant --no-unal --no-hd -p 1 -x index_file -1 UBE2I_tile4_ref_R1.fastq -2 UBE2I_tile4_ref_R2.fastq -S UBE2I_tile4_ref.sam
+1779244 reads; of these:
+  1779244 (100.00%) were paired; of these:
+    10832 (0.61%) aligned concordantly 0 times
+    1768356 (99.39%) aligned concordantly exactly 1 time
+    56 (0.00%) aligned concordantly >1 times
+    ----
+    10832 pairs aligned 0 times concordantly or discordantly; of these:
+      21664 mates make up the pairs; of these:
+        13319 (61.48%) aligned 0 times
+        8345 (38.52%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+99.63% overall alignment rate
+
+bowtie2 --very-sensitive-local --maxins 2000 --dovetail --no-discordant --no-unal --no-hd -p 1 -x index_file -1 UBE2I_tile5_ref_R1.fastq -2 UBE2I_tile5_ref_R2.fastq -S UBE2I_tile5_ref.sam
+1475212 reads; of these:
+  1475212 (100.00%) were paired; of these:
+    10487 (0.71%) aligned concordantly 0 times
+    1464624 (99.28%) aligned concordantly exactly 1 time
+    101 (0.01%) aligned concordantly >1 times
+    ----
+    10487 pairs aligned 0 times concordantly or discordantly; of these:
+      20974 mates make up the pairs; of these:
+        12035 (57.38%) aligned 0 times
+        8939 (42.62%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+99.59% overall alignment rate
+
+bowtie2 --very-sensitive-local --maxins 2000 --dovetail --no-discordant --no-unal --no-hd -p 1 -x index_file -1 UBE2I_tile1_sel_R1.fastq -2 UBE2I_tile1_sel_R2.fastq -S UBE2I_tile1_sel.sam
+1853799 reads; of these:
+  1853799 (100.00%) were paired; of these:
+    21929 (1.18%) aligned concordantly 0 times
+    1831802 (98.81%) aligned concordantly exactly 1 time
+    68 (0.00%) aligned concordantly >1 times
+    ----
+    21929 pairs aligned 0 times concordantly or discordantly; of these:
+      43858 mates make up the pairs; of these:
+        25530 (58.21%) aligned 0 times
+        18328 (41.79%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+99.31% overall alignment rate
+
+bowtie2 --very-sensitive-local --maxins 2000 --dovetail --no-discordant --no-unal --no-hd -p 1 -x index_file -1 UBE2I_tile2_sel_R1.fastq -2 UBE2I_tile2_sel_R2.fastq -S UBE2I_tile2_sel.sam
+3483559 reads; of these:
+  3483559 (100.00%) were paired; of these:
+    36355 (1.04%) aligned concordantly 0 times
+    3447188 (98.96%) aligned concordantly exactly 1 time
+    16 (0.00%) aligned concordantly >1 times
+    ----
+    36355 pairs aligned 0 times concordantly or discordantly; of these:
+      72710 mates make up the pairs; of these:
+        44781 (61.59%) aligned 0 times
+        27929 (38.41%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+99.36% overall alignment rate
+
+bowtie2 --very-sensitive-local --maxins 2000 --dovetail --no-discordant --no-unal --no-hd -p 1 -x index_file -1 UBE2I_tile3_sel_R1.fastq -2 UBE2I_tile3_sel_R2.fastq -S UBE2I_tile3_sel.sam
+1965637 reads; of these:
+  1965637 (100.00%) were paired; of these:
+    19995 (1.02%) aligned concordantly 0 times
+    1945625 (98.98%) aligned concordantly exactly 1 time
+    17 (0.00%) aligned concordantly >1 times
+    ----
+    19995 pairs aligned 0 times concordantly or discordantly; of these:
+      39990 mates make up the pairs; of these:
+        23415 (58.55%) aligned 0 times
+        16575 (41.45%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+99.40% overall alignment rate
+
+bowtie2 --very-sensitive-local --maxins 2000 --dovetail --no-discordant --no-unal --no-hd -p 1 -x index_file -1 UBE2I_tile4_sel_R1.fastq -2 UBE2I_tile4_sel_R2.fastq -S UBE2I_tile4_sel.sam
+2236507 reads; of these:
+  2236507 (100.00%) were paired; of these:
+    13941 (0.62%) aligned concordantly 0 times
+    2222553 (99.38%) aligned concordantly exactly 1 time
+    13 (0.00%) aligned concordantly >1 times
+    ----
+    13941 pairs aligned 0 times concordantly or discordantly; of these:
+      27882 mates make up the pairs; of these:
+        17418 (62.47%) aligned 0 times
+        10464 (37.53%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+99.61% overall alignment rate
+
+bowtie2 --very-sensitive-local --maxins 2000 --dovetail --no-discordant --no-unal --no-hd -p 1 -x index_file -1 UBE2I_tile5_sel_R1.fastq -2 UBE2I_tile5_sel_R2.fastq -S UBE2I_tile5_sel.sam
+3520793 reads; of these:
+  3520793 (100.00%) were paired; of these:
+    25559 (0.73%) aligned concordantly 0 times
+    3495202 (99.27%) aligned concordantly exactly 1 time
+    32 (0.00%) aligned concordantly >1 times
+    ----
+    25559 pairs aligned 0 times concordantly or discordantly; of these:
+      51118 mates make up the pairs; of these:
+        30331 (59.34%) aligned 0 times
+        20787 (40.66%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+99.57% overall alignment rate

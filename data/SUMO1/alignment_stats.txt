@@ -1,0 +1,93 @@
+Mon Mar 23 21:47:37 CDT 2020
+
+/home/romeroroot/code/bowtie2-2.3.4.1-linux-x86_64/bowtie2-align-s version 2.3.4.1
+64-bit
+Built on 14231912a8bd
+Sat Feb  3 13:04:04 UTC 2018
+Compiler: gcc version 4.8.2 20140120 (Red Hat 4.8.2-15) (GCC) 
+Options: -O3 -m64 -msse2 -funroll-loops -g3 -g -O2 -fvisibility=hidden -I/hbb_exe/include  -std=c++98 -DPOPCNT_CAPABILITY -DWITH_TBB -DNO_SPINLOCK -DWITH_QUEUELOCK=1
+Sizeof {int, long, long long, void*, size_t, off_t}: {4, 8, 8, 8, 8, 8}
+
+bowtie2 --very-sensitive-local --maxins 2000 --dovetail --no-discordant --no-unal --no-hd -p 1 -x index_file -1 SUMO1_tile1_ref_R1.fastq -2 SUMO1_tile1_ref_R2.fastq -S SUMO1_tile1_ref.sam
+1716269 reads; of these:
+  1716269 (100.00%) were paired; of these:
+    20515 (1.20%) aligned concordantly 0 times
+    1695511 (98.79%) aligned concordantly exactly 1 time
+    243 (0.01%) aligned concordantly >1 times
+    ----
+    20515 pairs aligned 0 times concordantly or discordantly; of these:
+      41030 mates make up the pairs; of these:
+        25223 (61.47%) aligned 0 times
+        15805 (38.52%) aligned exactly 1 time
+        2 (0.00%) aligned >1 times
+99.27% overall alignment rate
+
+bowtie2 --very-sensitive-local --maxins 2000 --dovetail --no-discordant --no-unal --no-hd -p 1 -x index_file -1 SUMO1_tile2_ref_R1.fastq -2 SUMO1_tile2_ref_R2.fastq -S SUMO1_tile2_ref.sam
+1746228 reads; of these:
+  1746228 (100.00%) were paired; of these:
+    18861 (1.08%) aligned concordantly 0 times
+    1726879 (98.89%) aligned concordantly exactly 1 time
+    488 (0.03%) aligned concordantly >1 times
+    ----
+    18861 pairs aligned 0 times concordantly or discordantly; of these:
+      37722 mates make up the pairs; of these:
+        21959 (58.21%) aligned 0 times
+        15761 (41.78%) aligned exactly 1 time
+        2 (0.01%) aligned >1 times
+99.37% overall alignment rate
+
+bowtie2 --very-sensitive-local --maxins 2000 --dovetail --no-discordant --no-unal --no-hd -p 1 -x index_file -1 SUMO1_tile3_ref_R1.fastq -2 SUMO1_tile3_ref_R2.fastq -S SUMO1_tile3_ref.sam
+1493288 reads; of these:
+  1493288 (100.00%) were paired; of these:
+    14740 (0.99%) aligned concordantly 0 times
+    1478444 (99.01%) aligned concordantly exactly 1 time
+    104 (0.01%) aligned concordantly >1 times
+    ----
+    14740 pairs aligned 0 times concordantly or discordantly; of these:
+      29480 mates make up the pairs; of these:
+        16541 (56.11%) aligned 0 times
+        12939 (43.89%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+99.45% overall alignment rate
+
+bowtie2 --very-sensitive-local --maxins 2000 --dovetail --no-discordant --no-unal --no-hd -p 1 -x index_file -1 SUMO1_tile1_sel_R1.fastq -2 SUMO1_tile1_sel_R2.fastq -S SUMO1_tile1_sel.sam
+1728895 reads; of these:
+  1728895 (100.00%) were paired; of these:
+    18395 (1.06%) aligned concordantly 0 times
+    1710446 (98.93%) aligned concordantly exactly 1 time
+    54 (0.00%) aligned concordantly >1 times
+    ----
+    18395 pairs aligned 0 times concordantly or discordantly; of these:
+      36790 mates make up the pairs; of these:
+        22503 (61.17%) aligned 0 times
+        14286 (38.83%) aligned exactly 1 time
+        1 (0.00%) aligned >1 times
+99.35% overall alignment rate
+
+bowtie2 --very-sensitive-local --maxins 2000 --dovetail --no-discordant --no-unal --no-hd -p 1 -x index_file -1 SUMO1_tile2_sel_R1.fastq -2 SUMO1_tile2_sel_R2.fastq -S SUMO1_tile2_sel.sam
+3905916 reads; of these:
+  3905916 (100.00%) were paired; of these:
+    37597 (0.96%) aligned concordantly 0 times
+    3868269 (99.04%) aligned concordantly exactly 1 time
+    50 (0.00%) aligned concordantly >1 times
+    ----
+    37597 pairs aligned 0 times concordantly or discordantly; of these:
+      75194 mates make up the pairs; of these:
+        42383 (56.36%) aligned 0 times
+        32811 (43.64%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+99.46% overall alignment rate
+
+bowtie2 --very-sensitive-local --maxins 2000 --dovetail --no-discordant --no-unal --no-hd -p 1 -x index_file -1 SUMO1_tile3_sel_R1.fastq -2 SUMO1_tile3_sel_R2.fastq -S SUMO1_tile3_sel.sam
+2910314 reads; of these:
+  2910314 (100.00%) were paired; of these:
+    24587 (0.84%) aligned concordantly 0 times
+    2885611 (99.15%) aligned concordantly exactly 1 time
+    116 (0.00%) aligned concordantly >1 times
+    ----
+    24587 pairs aligned 0 times concordantly or discordantly; of these:
+      49174 mates make up the pairs; of these:
+        27460 (55.84%) aligned 0 times
+        21714 (44.16%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+99.53% overall alignment rate

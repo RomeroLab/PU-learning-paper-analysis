@@ -1,0 +1,18 @@
+
+1. Files
+
+    SRA FILENAME
+    DXS_unselected1.fastq.gz
+    DXS_selected1.fastq.gz
+
+    These were converted to PreSelection01_chimeras.txt and PostSelection01_chimeras.txt
+
+
+2. Filter to remove ambigious blocks (X) and to convert numbered blocks to letters
+
+    python filter.py
+
+
+3. Convert block sequences to amino acid sequences
+
+    python chimera_blocks_to_AA_sequences.py
