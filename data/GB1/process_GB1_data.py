@@ -7,9 +7,6 @@ import numpy as np
 raw = pd.read_excel('1-s2.0-S0960982214012688-mmc2.xlsx')
 
 
-# data for WT
-WT = [(np.nan,np.nan,raw['Unnamed: 20'][2],raw['Unnamed: 20'][2]),]
-
 # data for single mutants
 sm = raw.iloc[2:1047,13:18]
 singles = [(r[1][0]+str(r[1][1])+r[1][2],np.nan,r[1][3],r[1][4]) for r in sm.iterrows()]
@@ -20,7 +17,7 @@ doubles = [(r[1][0]+str(r[1][1])+r[1][2],r[1][3]+str(r[1][4])+r[1][5],r[1][6],r[
 
 
 # make a data frame with all data organized 
-mut_data = pd.DataFrame(WT+singles+doubles,columns=['mut1','mut2','input_count','selection_count'])
+mut_data = pd.DataFrame(singles+doubles,columns=['mut1','mut2','input_count','selection_count'])
 
 
 # add full sequence information
