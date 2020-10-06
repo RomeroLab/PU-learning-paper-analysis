@@ -43,4 +43,4 @@ mut_data['sequences'] = sequences
 
 # write to CSV
 out = mut_data[['sequences','input_count','selection_count']]
-out.to_csv('GB1_PU_dataset.txt',header=False,index_label=False)
+out.to_csv('GB1_PU_dataset.txt',header=False,index=False)
