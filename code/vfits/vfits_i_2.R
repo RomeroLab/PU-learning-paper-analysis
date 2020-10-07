@@ -6,7 +6,6 @@
 # 4. fit a model with a full dataset at py1.opt
 
 remove(list=ls())
-library(puDMSanalysis)
 library(pudms)
 args=(commandArgs(TRUE))
 if(length(args)==0){

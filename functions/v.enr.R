@@ -37,7 +37,7 @@ v.enr = function(protein_dat,
     # export libPaths to the cluster
     invisible(clusterCall(cl, function(x) .libPaths(x), .libPaths()))
     # export libraries to the cluster
-    invisible(clusterEvalQ(cl, c(library(puDMSanalysis),library(pudms),library(pbapply),library(data.table),library(PUlasso))))
+    invisible(clusterEvalQ(cl, c(library(pudms),library(pbapply),library(data.table),library(PUlasso))))
 
   }else{
     cl = NULL

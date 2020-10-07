@@ -1,7 +1,6 @@
 ### load all vfits and check convergence ###
 
 # load libraries
-library(puDMSanalysis)
 library(foreach)
 
 if(!exists("vfits")){

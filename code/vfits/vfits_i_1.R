@@ -1,6 +1,5 @@
 # Fitting each fold in parallel
 library(pudms)
-library(puDMSanalysis)
 remove(list=ls())
 
 # setting

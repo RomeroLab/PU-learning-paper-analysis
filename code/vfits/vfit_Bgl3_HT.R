@@ -1,5 +1,4 @@
 library(pudms)
-library(puDMSanalysis)
 remove(list=ls())
 
 # setting

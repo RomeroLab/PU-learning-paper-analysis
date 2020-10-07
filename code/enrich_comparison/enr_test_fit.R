@@ -6,6 +6,7 @@ library(doParallel)
 remove(list=ls())
 load("data-r/py1values.rda")
 source("functions/v.enr.R")
+source('functions/log_enrichment_score.R')
 
 ## setting
 ntest = 10

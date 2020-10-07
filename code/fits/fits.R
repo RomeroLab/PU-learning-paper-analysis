@@ -1,5 +1,5 @@
 library(pudms)
-library(puDMSanalysis)
+
 remove(list=ls())
 
 # setting
@@ -24,8 +24,8 @@ if(length(args)==0){
 }
 
 # fitting
-data(list=protein.name)
-data("py1values")
+load(paste0('data-r/',protein.name,".rda"))
+load(file = 'data-r/py1values.rda')
 py1val = py1values[protein.name]
 cat("Fitting at py1=",py1val,"\n")
 assign(x = "protein_dat", value = eval(parse(text=protein.name)))
