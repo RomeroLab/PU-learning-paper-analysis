@@ -7,10 +7,17 @@ then
     cd code/program_comparison
 fi
 
+[ ! -d "logs/" ] && mkdir "logs/"
+[ ! -d "params/" ] && mkdir "params/"
+
 for d in ${DIR_LIST[@]} ; do
     echo $d
 
-    nice nohup python2 run_DeepSequence.py run_data/$d &> run_data/"$d"3_DeepSequence.log &
+    # CPU version
+    # nice nohup python2 run_DeepSequence.py run_data/$d &> run_data/"$d"3_DeepSequence.log &
+
+    # GPU version
+    # THEANO_FLAGS='floatX=float32,device=cuda' nice nohup python2 run_DeepSequence.py run_data/$d &> run_data/"$d"3_DeepSequence.log &
 
     wait
 done

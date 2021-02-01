@@ -2,11 +2,11 @@ Make sure that the working directory is this README's containing directory befor
 
 DEPENDENCIES:
 python (python3)
-python2
 jackhmmer
 EVmutation: numba, pandas
 DeepSequence: python2, pandas, theano
 Rosetta
+plots.py: scikit-learn matplotlib pandas
 
 TO RUN:
 1) Run "bash 0_make_datalinks.sh".
@@ -18,6 +18,8 @@ TO RUN:
 3) Run "bash 1_alignment.sh".
 
 4) Use bash to run the remaining numbered .sh files in the desired order.
+
+5) Run "python run_plots.py
 
 Note that EVmutation and DeepSequence prequisites can easily be set up with Conda:
 
