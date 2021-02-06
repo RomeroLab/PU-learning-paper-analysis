@@ -1,0 +1,6 @@
+[submodule "code/program_comparison/EVmutation"]
+	path = code/program_comparison/EVmutation
+	url = https://github.com/debbiemarkslab/EVmutation.git
+[submodule "code/program_comparison/DeepSequence"]
+	path = code/program_comparison/DeepSequence
+	url = https://github.com/debbiemarkslab/DeepSequence.git
